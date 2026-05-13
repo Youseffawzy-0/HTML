@@ -8,13 +8,24 @@
         <h1>Welcome to our Book store</h1>
         <form>
             <div>
-                <label >Username</label>
-                <input type="text" required placeholder="Username" min="5" max="20">
-            </div>
-            <br>
-            <div>
-                label >Email</label>
-                <input type="email" required placeholder="username" min="5" max="20">
+                <label>Choose Book: </label>
+                <select>
+                    <optgroup label="PHP">
+                        <option value="v5.0">v5.0</option>
+                        <option value="v6.0">v6.0</option>
+                        <option value="v7.0">v7.0</option>
+                    </optgroup>
+                    <optgroup label="Python">
+                        <option value="v2.0">v2.0</option>
+                        <option value="v3.0">v3.0</option>
+                        <option value="v3.9">v3.9</option>
+                    </optgroup>
+                </select>
+                <hr>
+                <textarea cols="30" rows="5" placeholder=" Write Here Why You Want To Learn Programming"></textarea> 
+                <br>
+                
+                <input type="submit">
             </div>
         </form>
     </body>
